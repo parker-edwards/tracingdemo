@@ -1,6 +1,3 @@
-# Tracing Demo
-This Spring Boot app reproduces the issue with the grpc lightstep tracer as we intend to use it with our Spring Boot apps.
-
 ## Prereqs
 * gradle 4
 * java 8+

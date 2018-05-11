@@ -32,8 +32,8 @@ dependencies {
 
 	// OpenTracing/LightStep Dependencies
 //	compile 'com.lightstep.tracer:lightstep-tracer-jre:0.12.15'
-    compile 'com.lightstep.tracer:lightstep-tracer-jre:0.14.0'
-    compile 'com.lightstep.tracer:tracer-grpc:0.14.3'
+    compile 'com.lightstep.tracer:lightstep-tracer-jre:0.14.1'
+    compile 'com.lightstep.tracer:tracer-grpc:0.15.1'
 	compile 'io.grpc:grpc-netty:1.7.0'
 	compile 'io.netty:netty-tcnative-boringssl-static:2.0.7.Final'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
