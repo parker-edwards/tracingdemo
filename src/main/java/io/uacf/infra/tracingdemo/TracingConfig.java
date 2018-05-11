@@ -18,8 +18,9 @@ public class TracingConfig {
         return new com.lightstep.tracer.jre.JRETracer(
                 new com.lightstep.tracer.shared.Options.OptionsBuilder()
                         .withComponentName("tracingdemo")
-                        // .withCollectorHost("")
-                        // .withCollectorPort(8080)
+                        .withCollectorHost("")
+                        .withCollectorProtocol("http")
+                        .withCollectorPort(8080)
                         .withAccessToken(accessToken)
                         .withVerbosity(4)
                         .build());
